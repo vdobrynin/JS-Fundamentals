@@ -1,28 +1,27 @@
-        //objects
-
+//objects
 var customer = {
-    firstName: 'John',
-    lastName: 'Smith',
-    cars: ["Volvo", "Toyota", "Tesla"]
+        firstName: 'John',
+        lastName: 'Smith',
+        cars: ["Volvo", "Toyota", "Tesla"]
 }
+// console.log(customer)
+// console.log(customer.firstName)
+// console.log(customer.lastName)
 
-console.log(customer)
-console.log(customer.firstName)
-
+//         //--> dot notation
 customer.firstName = "Mike"
 
-        //dot notation
-console.log(customer.lastName)
-
-        //bracket notation
-console.log(customer['firstName'])
-
+//         //--> bracket notation
+customer['lastName'] = "Silver"
+// console.log(customer['firstName'])
+// console.log(customer['lastName'])
+//         //-->interpolation
 console.log(`${customer.firstName} ${customer.lastName}`)
 
-        //arrays
+//         //--> arrays
 var car = ["Volvo", "Toyota", "Tesla"]
-console.log(car[0])
-console.log(car[2])
+// console.log(car[0])
+// console.log(car[2])
 
 car[1] = "BMW"
 console.log(car[1])
