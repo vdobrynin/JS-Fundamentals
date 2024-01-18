@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "type": "module",
-  
+
   "dependencies": {
 
-  },
+  }, 
   "devDependencies": {
-    
+
   }
 }

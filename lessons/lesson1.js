@@ -1,41 +1,47 @@
-        // 1. Hello World
-console.log()
-
+// 1. Hello World
 console.log("Hello World!")
-console.log()
 
-        // Variables
+// Variables
 var firstName = "John"
 let lastName = "Smith"
 
 console.log(firstName)
 console.log(lastName)
-console.log()
 
 var age, dateOfBirth, sex
 age = "5"
 sex = "Male"
 console.log(age)
-console.log()
+
 age = "6"
 console.log(age)
-console.log()
 
-        // constants
+// constants
 const occupation = "Engineer"
-        //occupation = "driver"         //--> doesn't work
+// occupation = "driver"         //--> doesn't work, can't change const
 console.log(occupation)
-console.log()
 
-        // data types
+// data types
 var middleName = 'David'        //string
 var ageOfBrother = 25           //number
 var isHeMarried = false         //boolean
 var yearsInMarrige = null       //null 
 var numberOfCars = undefined    //undefined
 
+// namespace Solution {
+//   class Solution {
+//     enum Color {
+//       red,
+//       green,
+//       blue
+//     }
 
-
+//     static void Main(string[] args) {
+//       var c = Color.green;
+//       Console.WriteLine(c);
+//     }
+//   }
+// }
 
 
 
