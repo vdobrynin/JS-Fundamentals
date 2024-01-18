@@ -20,5 +20,5 @@ var itemName = "Table"
 var messageToPrint = "The price for your " + itemName + " is " + price + " dollars" //--> concatination
 console.log(messageToPrint)
 
-var messageToPrint2 = `The price for your ${itemName} is ${price} dollars`           //--> interpolation
+var messageToPrint2 = `The price for your ${itemName} is ${price} dollars`          //--> interpolation
 console.log(messageToPrint2)
