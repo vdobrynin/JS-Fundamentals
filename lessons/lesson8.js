@@ -1,49 +1,48 @@
-//Functions
-// Declarative function
+//        //--> Declarative function
 
-helloOne()
-function helloOne() {
-    console.log('Hello One!')
-}
-// helloOne()
+// helloTwo()
+// function helloOne() {
+//     console.log('Hello One!')
+// }
 // helloOne()
 
-        // Anonymous function
-var helloTwo = function () {
-    console.log('Hello Two!')
-}
-helloTwo()
+//        //--> Anonymous function
+// var helloTwo = function () {
+//     console.log('Hello Two!')
+// }
+// helloTwo()
 
-        // ES6 function syntax or arrow function
-var helloThree = () => {
-    console.log('Hello Three!')
-}
-helloThree()
+//        //--> ES6 function syntax or arrow function
+// var helloThree = () => {
+//     console.log('Hello Three!')
+// }
+// helloThree()
 
-        //Function with arguments
-function printName(name) {
-    console.log(name)
-}
-printName('John')
+//        //--> Function with arguments
+// function printName(name) {
+//     console.log(name)
+// }
+// // printName('John')
+// printName('Mike')
 
-function printName2(name, lastName) {
-    console.log(name + ' ' + lastName)
-}
-printName2('John', 'Smith')
+// function printName2(name, lastName) {
+//     console.log(name + ' ' + lastName)
+// }
+// printName2('John', 'Smith')
 
-        //Function with return
+//        //--> Function with return
 function multiplyByTwo(number) {
     var result = number * 2;
     // console.log(result)
     return result
 }
-var myResult = multiplyByTwo(10)
+var myResult = multiplyByTwo(7)
 console.log(myResult)
 
-        // import function
-import { printAge } from '../helpers/printHelper.js'
-printAge(15)
+//        //--> import function
+// import { printAge } from '../helpers/printHelper.js' //--> this how to import
+// printAge(5)
 
-        // import everything
-import * as helper from '../helpers/printHelper.js'
-helper.printAge(10)
+//        //--> import everything
+import * as helper from '../helpers/printHelper.js' //--> this how to import the otherway
+helper.printAge(12)
