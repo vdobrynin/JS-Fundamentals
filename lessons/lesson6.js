@@ -1,5 +1,4 @@
-// conditional statement
-
+//--> conditional statement
 // if (condition) {
 //     // execute some code here
 // } else {
