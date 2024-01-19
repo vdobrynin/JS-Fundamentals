@@ -44,5 +44,5 @@ console.log(myResult)
 // printAge(5)
 
 //        //--> import everything
-import * as helper from '../helpers/printHelper.js' //--> this how to import the otherway
+import * as helper from '../helpers/printHelper.js' //--> this how to import the other way
 helper.printAge(12)
