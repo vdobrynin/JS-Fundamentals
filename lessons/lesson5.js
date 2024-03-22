@@ -10,11 +10,11 @@
 var ageIsMoreThanEighteen = false //--> less than 16
 var isUSCitizen = true
 
-// var eligibilityForDriverLicence = ageIsMoreThanEighteen && isUSCitizen
-// console.log('This customer is eligible for DL: ' + eligibilityForDriverLicence)
+// var eligibilityForDriverLicense = ageIsMoreThanEighteen && isUSCitizen
+// console.log('This customer is eligible for DL: ' + eligibilityForDriverLicense)
 
-// var eligibilityForDriverLicence = ageIsMoreThanEighteen || isUSCitizen
-// console.log('This customer is eligible for DL: ' + eligibilityForDriverLicence)
+// var eligibilityForDriverLicense = ageIsMoreThanEighteen || isUSCitizen
+// console.log('This customer is eligible for DL: ' + eligibilityForDriverLicense)
 
 //        // --> logical "NOT"
 // console.log(!true)

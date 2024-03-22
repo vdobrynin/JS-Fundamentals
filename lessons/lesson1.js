@@ -25,7 +25,7 @@ console.log(occupation)
 var middleName = 'David'        //string
 var ageOfBrother = 25           //number
 var isHeMarried = false         //boolean
-var yearsInMarrige = null       //null 
+var yearsInMarriage = null       //null 
 var numberOfCars = undefined    //undefined
 
 // namespace Solution {
