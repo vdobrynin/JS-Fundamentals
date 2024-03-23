@@ -4,6 +4,7 @@ export function printAge(age) {
 }
 
 export class CustomerDetails {
+
     printFirstName(firstName) {
         console.log(firstName)
     }
@@ -14,7 +15,6 @@ export class CustomerDetails {
     printLastName(lastName) {
         console.log(lastName)
     }
-
 }
 
 export const customerDetails = new CustomerDetails() 
