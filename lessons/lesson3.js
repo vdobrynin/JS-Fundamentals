@@ -24,7 +24,7 @@ console.log(car[0])
 console.log(car[2])
 console.log(car[0] + ' ' + car[2])
 
-car[1] = "BMW"
+car[1] = "BMW"                  // overwrite value
 console.log(car[1])
-console.log(customer.cars[0])
-console.log(car[1] + ' ' + customer.cars[0])
+console.log(customer.cars[0])   // from object
+console.log(car[1] + ' ' + customer.cars[0]) // from array & object
