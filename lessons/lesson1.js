@@ -12,8 +12,7 @@ var age, dateOfBirth, sex
 age = "5"
 sex = "Male"
 console.log(age)
-
-age = "6"
+age = "6"           // overwrite age
 console.log(age)
 
 // constants
@@ -34,7 +33,7 @@ var numberOfCars = undefined    //undefined
 //       red,
 //       green,
 //       blue
-//     }
+// }
 
 //     static void Main(string[] args) {
 //       var c = Color.green;
@@ -42,6 +41,3 @@ var numberOfCars = undefined    //undefined
 //     }
 //   }
 // }
-
-
-
