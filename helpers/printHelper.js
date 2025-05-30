@@ -1,4 +1,3 @@
-
 export function printAge(age) {     // export to being visible outside
     console.log(age)
 }
@@ -9,7 +8,7 @@ class CustomerDetails {      // export to being visible outside, then remove it
     }
     /**
      * This method will print the last name
-     * @param {lastName} lastName 
+     * @param {string} lastName 
      */
     printLastName(lastName) {
         console.log(lastName) 
