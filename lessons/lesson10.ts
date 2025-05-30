@@ -1,4 +1,3 @@
-
 var customerFirstName: string = 'John'
 var customerLastName: string = 'Smith'
 var customerAge: number = 25
