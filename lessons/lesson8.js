@@ -1,23 +1,24 @@
-//        //--> Declarative function
-// // helloTwo()
+// //                    // --> Declarative function
+// helloOne()               // // --> will work
 // function helloOne() {
 //     console.log('Hello One!')
 // }
-// helloOne()
+// // helloOne()
 
-// //        //--> Anonymous function
+// // //                   // --> Anonymous function
+// helloTwo()               // // --> will not work
 // var helloTwo = function () {
 //     console.log('Hello Two!')
 // }
 // helloTwo()
 
-// //        //--> ES6 function syntax or arrow function
+// //                       // --> ES6 function syntax or arrow function
 // var helloThree = () => {
 //     console.log('Hello Three!')
 // }
 // helloThree()
 
-// //        //--> Function with arguments
+//                          // --> Function with arguments
 // function printName(name) {
 //     console.log(name)
 // }
@@ -29,23 +30,23 @@
 // }
 // printName2('John', 'Smith')
 
-// //        //--> Function with return
-// function multiplyByTwo(number) {
-//     var result = number * 2
-//     // console.log(result)
-//     return result
-// }
-// var myResult1 = multiplyByTwo(5)
+// //                       // --> Function with return
+function multiplyByTwo(number) {
+    var result = number * 2
+    // console.log(result)
+    return result
+}
+var myResult = multiplyByTwo(5)
+console.log(myResult)
 // var myResult2 = multiplyByTwo(7)
-// console.log(myResult1)
 // console.log(myResult2)
 
-//        //--> import function
-import { printAge } from '../helpers/printHelper.js' //--> this how to import
-printAge(5)                     // --> add word export in the printHelper
-printAge(9)                     //--> add in the package.json --> "type": "module",
+// //                           // --> import function
+import { printAge } from '../helpers/printHelper.js' // --> this how to import
+printAge(5)                             // --> add word export in the printHelper
+// printAge(9)                          // --> add in the package.json --> "type": "module",
 
-//        //--> import everything
+// //                           // --> import everything
 import * as helper from '../helpers/printHelper.js' //--> this how to import the other way
 helper.printAge(12)
-helper.printAge(15)
+// helper.printAge(15)
