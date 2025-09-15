@@ -4,7 +4,6 @@ console.log("Hello World!")
 // Variables
 var firstName = "John"
 let lastName = "Smith"
-
 console.log(firstName)
 console.log(lastName)
 
