@@ -13,7 +13,7 @@ console.log(messageToPrint1)
 var messageToPrint = "The price for your " + itemName1 + " is 50 dollars"
 console.log(messageToPrint1)
 
-var messageToPrint = "The price for your " + itemName2 + " is " + price2 + " dollars"//-->concatenation
+var messageToPrint = "The price for your " + itemName2 + " is " + price2 + " dollars"//--> concatenation
 console.log(messageToPrint2)
 var messageToPrint2 = `The price for your ${itemName2} is ${price2} dollars` //--> interpolation
 console.log(messageToPrint2)

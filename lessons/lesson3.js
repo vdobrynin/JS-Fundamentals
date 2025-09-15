@@ -5,6 +5,7 @@ var customer = {
         cars: ["Volvo", "Toyota", "Tesla"]
 }
 // console.log(customer)
+console.log(customer)
 console.log(customer.firstName)
 console.log(customer.lastName)
 console.log(customer.firstName + ' ' + customer.lastName)
@@ -15,7 +16,7 @@ customer.firstName = "Mike"
 customer['lastName'] = "Silver"
 console.log(customer['firstName'])
 console.log(customer['lastName'])
-//         //-->interpolation
+//         //--> interpolation
 console.log(`${customer.firstName} ${customer.lastName}`)
 
 //      //--> arrays
