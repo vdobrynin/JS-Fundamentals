@@ -4,4 +4,4 @@ import { customerDetails } from "../helpers/printHelper.js";   // import instanc
 
 // var customerDetails = new CustomerDetails()  // remove contractor & to put it into printHelper class
 customerDetails.printFirstName('Steve')
-customerDetails.printFirstName('Smith')     
+customerDetails.printLastName('Smith')     
