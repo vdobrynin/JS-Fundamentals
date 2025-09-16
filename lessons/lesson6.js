@@ -10,19 +10,19 @@
 // var hour = 5
 // var hour = 3
 // var hour = 6
-// var hour = 12
+var hour = 12
 // var hour = 11
 // var hour = 18
 // var hour = 17
 // var hour = 23
 // var hour = 20
-// if (hour >= 6 && hour < 12) {
-//     console.log('Good Morning')
-// } else if (hour >= 12 && hour < 18) {
-//     console.log('Good Afternoon')
-// } else {
-//     console.log('Good Evening')
-// }
+if (hour >= 6 && hour < 12) {
+    console.log('Good Morning')
+} else if (hour >= 12 && hour < 18) {
+    console.log('Good Afternoon')
+} else {
+    console.log('Good Evening')
+}
 
 // var ageIsMoreThanEighteen = true
 var ageIsMoreThanEighteen = false
