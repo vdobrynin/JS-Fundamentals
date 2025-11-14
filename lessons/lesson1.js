@@ -6,6 +6,7 @@ var firstName = "John"
 let lastName = "Smith"
 console.log(firstName)
 console.log(lastName)
+console.log(firstName + ' ' + lastName)
 
 var age, dateOfBirth, sex
 age = "5"
@@ -16,7 +17,7 @@ console.log(age)
 
 // constants
 const occupation = "Engineer"
-// occupation = "driver"         //--> doesn't work, can't change const
+// const occupation = "driver"         //--> doesn't work, can't change const
 console.log(occupation)
 
 // data types
