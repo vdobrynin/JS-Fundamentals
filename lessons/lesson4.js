@@ -35,4 +35,4 @@ console.log(result9)
 var x = 1
 console.log(x == '1')   //--> lose comparison
 console.log(x === '1')  //--> strict comparison
-console.log(x === 1)    // true
+console.log(x === 1)    // true for number
