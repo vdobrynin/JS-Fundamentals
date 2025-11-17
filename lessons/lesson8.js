@@ -1,20 +1,20 @@
 // //                    // --> Declarative function
-// // helloOne()               // // --> will work
+helloOne()               // // --> will work every time --> invoking function any where
 function helloOne() {
     console.log('Hello One!')
 }
-helloOne()
+// helloOne()
 
 // //                   // --> Anonymous function
 // helloTwo()               // // --> will not work
 var helloTwo = function () {
-    console.log('Hello Two!')
+    console.log('Hello Two!!')
 }
 helloTwo()
 
 //                       // --> ES6 function syntax or arrow function
 var helloThree = () => {
-    console.log('Hello Three!')
+    console.log('Hello Three!!!')
 }
 helloThree()
 
@@ -48,5 +48,5 @@ printAge(9)                          // --> add in the package.json --> "type": 
 
 //                           // --> import everything
 import * as helper from '../helpers/printHelper.js' //--> this how to import the other way
-helper.printAge(12)
+helper.printAge(11)
 helper.printAge(15)
