@@ -15,4 +15,4 @@ class CustomerDetails {      // export to being visible outside, then remove it
     }
 }
 
-export const customerDetails = new CustomerDetails() // put it here
+export const customerDetails = new CustomerDetails() // --> import instance og the class
