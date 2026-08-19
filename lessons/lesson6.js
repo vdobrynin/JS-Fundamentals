@@ -1,21 +1,21 @@
-//                  // --> Conditional statement
+//                              // --> Conditional statement
 // if (condition) {
 //     // execute some code here
 // } else {
 //     // execute some code here
 // }
+
 // if hour between 6 and 12 print "Good Morning"
 // if hour between 12 and 18 print "Good Afternoon"
 // Otherwise: "Good Evening"
+
 // var hour = 5
-// var hour = 3
 // var hour = 6
-var hour = 12
+// var hour = 12
 // var hour = 11
-// var hour = 18
-// var hour = 17
+var hour = 17
 // var hour = 23
-// var hour = 20
+
 if (hour >= 6 && hour < 12) {
     console.log('Good Morning')
 } else if (hour >= 12 && hour < 18) {
