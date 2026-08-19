@@ -4,8 +4,8 @@ console.log("Hello World!")
 // Variables
 var firstName = "John"
 let lastName = "Smith"
-console.log(firstName)
-console.log(lastName)
+// console.log(firstName)
+// console.log(lastName)
 console.log(firstName + ' ' + lastName)
 
 var age, dateOfBirth, sex
@@ -17,7 +17,7 @@ console.log(age)
 
 // constants
 const occupation = "Engineer"
-// const occupation = "driver"         //--> doesn't work, can't change const
+// const occupation = "Driver"         //--> doesn't work, can't change const
 console.log(occupation)
 
 // data types
