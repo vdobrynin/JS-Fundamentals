@@ -1,12 +1,12 @@
 // //                    // --> Declarative function
-helloOne()               // // --> will work every time --> invoking function any where
+// helloOne()               // // --> will work every time --> invoking function any where
 function helloOne() {
     console.log('Hello One!')
 }
-// helloOne()
+helloOne()
 
 // //                   // --> Anonymous function
-// helloTwo()               // // --> will not work
+// helloTwo()               // --> will not work
 var helloTwo = function () {
     console.log('Hello Two!!')
 }
@@ -22,7 +22,6 @@ helloThree()
 function printName(name) {
     console.log(name)
 }
-// printName('John')
 printName('Mike')
 
 function printName2(name, lastName) {
@@ -36,17 +35,17 @@ function multiplyByTwo(number) {
     // console.log(result)
     return result
 }
-var myResult = multiplyByTwo(5)
-console.log(myResult)
-var myResult2 = multiplyByTwo(7)
-console.log(myResult2)
+// var result1 = multiplyByTwo(5)
+// console.log(result1)
+var result2 = multiplyByTwo(7)
+console.log(result2)
 
-//                           // --> import function
+//                                  // --> import function
 import { printAge } from '../helpers/printHelper.js' // --> this how to import
 printAge(5)                             // --> add word export in the printHelper
-printAge(9)                          // --> add in the package.json --> "type": "module",
+printAge(9)                             // --> add in the package.json --> "type": "module",
 
-//                           // --> import everything
+//                                  // --> import everything
 import * as helper from '../helpers/printHelper.js' //--> this how to import the other way
 helper.printAge(11)
 helper.printAge(15)
