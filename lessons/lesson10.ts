@@ -1,3 +1,4 @@
+
 let customerFirstName: string = 'John'
 let customerLastName: string = 'Smith'
 let customerAge: number = 25
